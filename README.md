@@ -2,7 +2,7 @@
 
 MyReads is an application that lets you organize your library. With it, you can search for books, move books between reading shelves or remove them from the library.
 
-## Installation
+## To run the application
 
 - download or clone the code
 - install all required dependencies by `npm install`
