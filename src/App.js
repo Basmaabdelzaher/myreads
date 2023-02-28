@@ -36,9 +36,9 @@ function App() {
   return (
     <div className="app">
       <Routes>
-        <Route exact path="/" element={<MyBooksPage myBooks={myBooks} changeBookShelf={changeBookShelf} />} />
+        <Route exact path="/myreads" element={<MyBooksPage myBooks={myBooks} changeBookShelf={changeBookShelf} />} />
         <Route
-          path="/search"
+          path="/myreads/search"
           element={<SearchPage myBooks={myBooks} changeBookShelf={changeBookShelf} />}
         />
         <Route path="*" element={ <ErrorPage /> }></Route>
